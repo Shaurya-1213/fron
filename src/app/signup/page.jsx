@@ -1,11 +1,27 @@
-import React from 'react'
+import React from 'react';
+import classes from './signup.module.css';
 
 const Signup = () => {
   return (
-    <div>
-      <h1>Signup</h1>
+    <div className={classes.body}>
+      
+      <div className={classes.main}>
+        <h1 className={classes.mainHeading}>Signup</h1>
+        <input className={classes.mainInput} type="text" placeholder='Username'/>
+        <input className={classes.mainInput} type="password" placeholder='Password'/>
+        <input className={classes.mainInput} type="email" placeholder='Your Email'/>
+        <input className={classes.mainInput} type="number" placeholder='Contact'/>
+        <button className={classes.btnLogin}>Signup</button>
+        
+      
+      <div className={classes.register}>
+        <h1 className={classes.registerHeading}>Login</h1>
+
+      </div>
+      </div>
+      <img className={classes.imgSpiderman} src="./spiderman.png" alt="Spiderman" />
     </div>
   )
 }
 
-export default Signup;
+export default Signup

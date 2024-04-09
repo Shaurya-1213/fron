@@ -23,7 +23,7 @@
 }
 .mainHeading{
   text-align: center;
-  margin-top: 80px;
+  margin-top: 20px;
   font-weight: 800;
   margin-bottom: 40px;
 }
@@ -43,7 +43,7 @@
   border-radius: 5px;
   width:150px;
   margin-left:75px ;
-  margin-bottom: 60px;
+  margin-bottom: 15px;
 }
 .register{
   width:300px;
@@ -55,5 +55,4 @@
   text-align: center;
   color:#460000;
   font-weight: 700;
-  margin-top: 20px;
 }

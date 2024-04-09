@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect } from 'react'
-import './bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Template = ({children}) => {
   useEffect(()=>{
@@ -10,7 +10,6 @@ const Template = ({children}) => {
   
   return (
     <div>{children}
-      <h1>Template</h1>
     </div>
   )
 }
