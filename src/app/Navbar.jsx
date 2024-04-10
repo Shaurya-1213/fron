@@ -1,14 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
+import image from '../app/Logo.png'
 
 const Navbar = () => {
   return (
     <div style={{marginBottom:'55px'}}>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#">
-        Navbar
-      </a>
+      <div>
+      <img src={image.src} alt="" style={{height:"85px", width:"75px", marginRight:"30px"}}/>
+      </div>
       <button
         className="navbar-toggler"
         type="button"

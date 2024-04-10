@@ -1,0 +1,84 @@
+.headingOne{
+  background-image: radial-gradient( rgba(83, 24, 24), rgb(31, 49, 78),  rgb(35, 37, 35));
+  text-align: center;
+  color:antiquewhite;
+  padding:15px 0 ;
+  margin:100px 0 0 0;
+}
+.body{
+  width:100%;
+  height:90vh;
+  background-size: 100% 100%;
+  background-image: url(../app/spiderbanner3.jpg);
+}
+.headingTwo{
+  color: white;
+  font-size: 100px;
+  padding:70px;
+  font-weight: 800;
+  font-family:Martian Mono ;
+}
+.featureCard{
+  display: flex;
+  border:1px solid red;
+}
+.card{
+  margin:10px;
+  height:300px;
+  width:240px;
+  border:1px solid black;
+  box-shadow: 2px 2px 2px 2px black;
+}
+.cardOne{
+  background-image: url(./1.jpeg);
+  background-size:100% 100%;
+  height:240px;
+}
+.cardTwo{
+  background-image: url(./2.jpeg);
+  background-size:100% 100%;
+  height:240px;
+}
+.cardThree{
+  background-image: url(./3.jpeg);
+  background-size:100% 100%;
+  height:240px;
+}
+.cardFour{
+  background-image: url(./4.jpeg);
+  background-size:100% 100%;
+  height:240px;
+}
+.cardFive{
+  background-image: url(./5.jpeg);
+  background-size:100% 100%;
+  height:240px;
+}
+.cardSix{
+  background-image: url(./6.jpeg);
+  background-size:100% 100%;
+  height:240px;
+}
+.cardSeven{
+  background-image: url(./7.jpeg);
+  background-size:100% 100%;
+  height:240px;
+}
+.cardEight{
+  background-image: url(./8.jpeg);
+  background-size:100% 100%;
+  height:240px;
+}
+.cardNine{
+  background-image: url(./9.jpeg);
+  background-size:100% 100%;
+  height:240px;
+}
+.cardTen{
+  background-image: url(./11.jpeg);
+  background-size:100% 100%;
+  height:240px;
+}
+.headingThree{
+  
+}
