@@ -1,9 +1,10 @@
 import React from 'react'
-import classes from './page.module.css';
+import classes from './page.module.css'
+import {IconSpider} from '@tabler/icons-react'
 
 const home = () => {
   return (
-    <div>
+    <div >
       <h1 className={classes.headingOne}>Marvel's Spiderman</h1>
       <div className={classes.body}>
        <h1 className={classes.headingTwo}>Spider Man</h1>
@@ -73,6 +74,7 @@ const home = () => {
 
     <div>
       <h1>Latest</h1>
+      <IconSpider />
     </div>
     </div>
   )

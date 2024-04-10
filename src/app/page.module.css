@@ -21,11 +21,17 @@
 .featureCard{
   display: flex;
   border:1px solid red;
+  overflow: scroll;
+  scroll-snap-type: X mandatory;
+
+  width: 100%;
+  overflow-x: hidden;
+
 }
 .card{
   margin:10px;
   height:300px;
-  width:240px;
+  width:25%;
   border:1px solid black;
   box-shadow: 2px 2px 2px 2px black;
 }
@@ -80,5 +86,5 @@
   height:240px;
 }
 .headingThree{
-  
+  color:white;
 }

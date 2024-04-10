@@ -8,6 +8,9 @@ const page = () => {
       <hr/>
 
       <button className='btn btn-primary' onClick={ () => {alert('Event Handled')} }>Submit</button>
+      <input type="color" onChange={ (e) => {console.log(e.target.value);
+      document.body.style.backgroundColor = e.target.value;
+      } }/>
     </div>
   )
 }
