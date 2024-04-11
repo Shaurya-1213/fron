@@ -1,6 +1,5 @@
 import React from 'react'
 import classes from './page.module.css'
-import {IconSpider} from '@tabler/icons-react'
 
 const home = () => {
   return (
@@ -73,9 +72,32 @@ const home = () => {
       </div>
 
     <div>
-      <h1>Latest</h1>
-      <IconSpider />
+      <h1 className={classes.headingFour}>Latest</h1>
+      <div className={classes.featureCardLatest}>
+
+        <div className={classes.cardLatest}>
+          <div className={classes.cardLatestOne}></div>
+          <p className={classes.headingFive}>Spider-Man: Across the Spiderverse (2023)</p>
+        </div>
+        <hr />
+        <div className={classes.cardLatest}>
+          <div className={classes.cardLatestTwo}></div>
+          <div><p className={classes.headingFive}>Spider-Man: No Way Home (2021)</p></div>
+        </div>
+        <hr />
+        <div className={classes.cardLatest}>
+          <div className={classes.cardLatestThree}></div>
+          <p className={classes.headingFive}>Spider-Man: Far From Home (2019)</p></div>
+          <hr />
+        </div>
+
     </div>
+
+    <div className={classes.mainBottom}>
+      <div className={classes.mainBottomImage1}></div>
+      <div className={classes.mainBottomHeading}>MARVEL</div>
+    </div>
+
     </div>
   )
 }

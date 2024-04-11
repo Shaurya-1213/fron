@@ -4,8 +4,8 @@ import image from '../app/Logo.png'
 
 const Navbar = () => {
   return (
-    <div style={{marginBottom:'55px'}}>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
     <div className="container-fluid">
       <div>
       <img src={image.src} alt="" style={{height:"85px", width:"75px", marginRight:"30px"}}/>
