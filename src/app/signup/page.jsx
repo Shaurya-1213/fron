@@ -6,9 +6,13 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 
 const SignupSchema = Yup.object().shape({
-  name : Yup.string().min(4, 'Enter Full Name').required('Name is required'),
+  name : Yup.string().min(4, 'Enter Full Name').required('Name is Required'),
   email : Yup.string().email('Invalid email').required('Required'),
-  password : Yup.string().min(6,'Password should be at least  6 characters').required('Password Is Required'),
+  password : Yup.string().min(6,'Password should be at least  6 characters').required('Password Is Required')
+  .matches(/a-z/, 'Must Use Lowercase').matches(/A-Z/, 'Must Use Uppercase').matches(/0-9/, 'Must Use Number')
+  .matches(/\w/, 'Must Use Special Character'),
+  confirmPassword: Yup.string().oneOf([Yup.ref("password"),null], "Passwords must match")
+  .required('Password Is Required'),
 });
 
 const Signup = () => {
@@ -25,7 +29,6 @@ const Signup = () => {
     },
     validationSchema : SignupSchema
   })
-
   return (
     <div className={classes.body}>
       
