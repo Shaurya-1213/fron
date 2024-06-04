@@ -56,7 +56,7 @@ const Signup = () => {
       
       <div className={classes.register}>
         <h1 className={classes.registerHeading}><Link href="/login">Login</Link></h1> 
-         
+         <h1 className={classes.registerHeading}><Link href="/login">Login</Link></h1> <h1 className={classes.registerHeading}><Link href="/login">Login</Link></h1> <h1 className={classes.registerHeading}><Link href="/login">Login</Link></h1> 
       </div>
       </div>
       <img className={classes.imgSpiderman} src="./spiderman.png" alt="Spiderman" />
