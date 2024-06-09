@@ -10,6 +10,8 @@ const Login = () => {
         <h1 className={classes.mainHeading}>Log in</h1>
         <input className={classes.mainInput} type="text" placeholder='Username' />
         <input className={classes.mainInput} type="password" placeholder='password' />
+        
+        <input className={classes.mainInput} type="password" placeholder='password' />
         <button className={classes.btnLogin}>Login</button>
 
 
