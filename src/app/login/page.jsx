@@ -13,7 +13,7 @@ const Login = () => {
         <input className={classes.mainInput} type="password" placeholder='password' />
         <input className={classes.mainInput} type="password" placeholder='password' />
         <input className={classes.mainInput} type="password" placeholder='password' />
-        
+        <input className={classes.mainInput} type="password" placeholder='password' />
         <input className={classes.mainInput} type="password" placeholder='password' />
         <button className={classes.btnLogin}>Login</button>
 
