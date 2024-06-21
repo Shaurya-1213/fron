@@ -48,6 +48,8 @@ const todo = () => {
                   <span className='badge bg-success'>Completed</span>
                   :
                   <span className='badge bg-warning'>pending</span>
+                  <span className='badge bg-warning'>pending</span>
+                  <span className='badge bg-warning'>pending</span>
                 }
 
                 <div>
