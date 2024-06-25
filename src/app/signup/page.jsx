@@ -61,7 +61,6 @@ const Signup = () => {
       </div>
       <img className={classes.imgSpiderman} src="./spiderman.png" alt="Spiderman" />
       <img className={classes.imgSpiderman} src="./spiderman.png" alt="Spiderman" />
-      <img className={classes.imgSpiderman} src="./spiderman.png" alt="Spiderman" />
     </div>
   )
 }
