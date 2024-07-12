@@ -15,8 +15,6 @@ const Login = () => {
 
         <div className={classes.register}>
           <h1 className={classes.registerHeading}><Link href="/signup">Signup</Link></h1>
-          
-          <h1 className={classes.registerHeading}><Link href="/signup">Signup</Link></h1>
 
         </div>
         <div className={classes.register}>
