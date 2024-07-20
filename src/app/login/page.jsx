@@ -12,10 +12,6 @@ const Login = () => {
         <input className={classes.mainInput} type="password" placeholder='password' />
         <button className={classes.btnLogin}>Login</button>
 
-        <div className={classes.register}>
-          <h1 className={classes.registerHeading}><Link href="/signup">Signup</Link></h1>
-
-        </div>
          <div className={classes.register}>
           <h1 className={classes.registerHeading}><Link href="/signup">Signup</Link></h1>
 
